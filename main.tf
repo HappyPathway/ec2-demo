@@ -31,4 +31,4 @@ output "availability_zone" {
   value = "${module.ec2_instance.availability_zone}"
 }
 
-# comment
+# comment 2
