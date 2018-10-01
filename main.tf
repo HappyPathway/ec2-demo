@@ -10,7 +10,7 @@ module "ec2_instance" {
 	source  = "git::https://github.com/HappyPathway/terraform-aws-ec2-instance"
   version = "2.1.0"
 
-  instance_name = "${var.instance_name}"
+  instance_name = "${var\
   instance_type = "${var.instance_type}"
   key_name = "${var.key_name}"
 }
