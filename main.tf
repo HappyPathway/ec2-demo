@@ -30,3 +30,5 @@ output "key_name" {
 output "availability_zone" {
   value = "${module.ec2_instance.availability_zone}"
 }
+
+# comment
